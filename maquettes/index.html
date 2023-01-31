@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>le web moderne</title>
+    <style>
+
+        .conteneur {
+            position: relative;
+            border: 2px solid;
+        }
+
+        .forImage {
+            position: relative;
+
+        }
+
+        .forImage img {
+            width: 100%;
+        }
+
+        .over {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            color: aliceblue;
+        }
+
+        .div1 {
+            background-color: bisque;
+        }
+
+        .div2 {
+            background-color: #0f1923;
+            color: white;
+        }
+
+        .isDone {
+            color: gray;
+            text-decoration: line-through;
+        }
+        .isBlack {
+            color: gray;
+            text-decoration: overline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="App">
+        <nav>
+            <ul>
+                <li v-for="link of navigation"><a :href="link.href">{{link.title}}</a></li>
+            </ul>
+        </nav>
+        <div class="conteneur">
+            <div class="forImage">
+                <img src="assets/web moderne.jpg" alt="logo">
+            </div>
+            <div class="over">
+                <p>Le web moderne</p>
+            </div>
+        </div>
+
+        <button v-on:click="success = !success">click me</button>
+        <div class="div1" v-if="success">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, pariatur eius? Corporis quaerat aspernatur earum magni pariatur dignissimos incidunt itaque error, temporibus, libero totam ipsa.</p>
+        </div>
+        <div class="div2" v-else>
+            <form action="#" method="post" @submit.prevent="add">
+                <input type="text" name="articleName" id="articleName" placeholder="Nom de l'article" v-model="itemName">
+                <input type="text" name="articlePrice" id="articlePrice" placeholder="Prix" v-model="itemPrice">
+                <input type="text" name="articleQuantity" id="articleQuantity" placeholder="Quantité" v-model="itemQuantity">
+                <button type="submit">ajoutez un article</button>
+
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Article</td>
+                        <td>Prix</td>
+                        <td>Quantité</td>
+                        <td>Total</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="theItem of hideShow" :class="{isDone:theItem.state, isBlack:!theItem.state}">
+                        <div>
+                            <td>{{theItem.Nom}}</td>
+                            <td>{{theItem.Prix}}</td>
+                            <td>{{theItem.Quantité}}</td>
+                            <td>{{theItem.Total}}</td>
+                            <td>
+                                <input v-model="theItem.state" type="checkbox" name="done" id="foCheck">
+                            </td>
+                        </div>
+                    </tr>
+                    <label for=""></label>
+                </tbody>
+            </table>
+
+            <button @click="hideShow, this.isBought = !this.isBought">{{this.isBought ? "Show all": "Hide bought" }}</button>
+
+            <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sint odio obcaecati natus ab perferendis! Dolor eum repellendus perspiciatis alias incidunt tempora quam aspernatur accusamus quibusdam voluptas! Autem, odio esse, cupiditate sapiente itaque quibusdam consequuntur est assumenda ipsa voluptatibus mollitia vel quasi? Ex incidunt adipisci exercitationem recusandae dolorum sapiente alias.</blockquote>
+        </div>
+
+    
+    </div>
+
+    
+    <script src="vu3.js"></script>
+    <script>
+        const vue = Vue.createApp({
+            data() {
+                return {
+                    navigation: [{title: "Accueil", href: "index.html"},
+                                {title: "Articles", href: "articles.html"},
+                                {title: "Forum", href: "forum.html"},
+                                {title: "Gallerie", href: "gallerie.html"},
+                                {title: "Connexion", href: "connexion.html"},
+                ],
+
+                    itemArray: [
+                        {Nom: "Expadrille", Prix: 3000, Quantité: 1, Total: 3000, state: false},
+                        {Nom: "Chemise", Prix: 5000, Quantité: 2, Total: 10000, state: false}, 
+                        {Nom: "Nom de domain", Prix: 30000, Quantité: 1, Total: 30000, state: false},
+                    ],
+
+                    itemName: "",
+                    itemPrice: "",
+                    itemQuantity: "",
+
+                    isBought: false,
+                    success: false,
+                }
+            },
+
+            methods: {
+                add() {
+                    this.itemArray.push({Nom: this.itemName, Prix: this.itemPrice, Quantité: this.itemQuantity, Total: (this.itemPrice) * (this.itemQuantity), state: false});
+                    console.log(this.itemArray);
+                }
+            },
+
+            computed: {
+                hideShow() {
+                    if(this.isBought) {
+
+                       return this.itemArray.filter(el => el.state === false);
+                    } else {
+                    return this.itemArray;
+                    }
+                }
+            }
+        });
+        
+        vue.mount('#App');
+        </script>
+</body>
+</html>

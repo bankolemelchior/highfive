@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 2000 2000" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0 947.64)">
+  <g transform="matrix(3.3452 0 0 3.4237 183.54 -2672.9)">
+   <circle transform="rotate(-90)" cx="-796.79" cy="254.58" r="247.5" fill="#fff" fill-rule="evenodd" stroke="#045" stroke-linecap="round" stroke-width="5"/>
+   <rect x="68.334" y="759.91" width="380.3" height="12.936" ry="4.9692" fill="#006680" fill-rule="evenodd" stroke="#045" stroke-linecap="round"/>
+   <rect x="68.334" y="772.84" width="116.92" height="134.54" ry="4.9692" fill="#008080" fill-rule="evenodd" stroke="#045" stroke-linecap="round"/>
+   <rect x="87.791" y="790.64" width="74.519" height="27.166" ry="4.9692" fill="#0cf" fill-rule="evenodd" stroke="#045" stroke-linecap="round"/>
+   <rect x="87.791" y="834.57" width="74.519" height="45.277" ry="8.2821" fill="#0cf" fill-rule="evenodd" stroke="#045" stroke-linecap="round"/>
+   <ellipse cx="125.05" cy="857.21" rx="7.4915" ry="7.543" fill="#006680" fill-rule="evenodd" stroke="#045" stroke-linecap="round"/>
+   <ellipse cx="125.05" cy="803.97" rx="7.4915" ry="7.543" fill="#006680" fill-rule="evenodd" stroke="#045" stroke-linecap="round"/>
+   <rect x="331.72" y="772.84" width="116.92" height="134.54" ry="4.9692" fill="#008080" fill-rule="evenodd" stroke="#045" stroke-linecap="round"/>
+   <rect x="351.18" y="790.64" width="74.519" height="27.166" ry="4.9692" fill="#0cf" fill-rule="evenodd" stroke="#045" stroke-linecap="round"/>
+   <rect x="351.18" y="834.57" width="74.519" height="45.277" ry="8.2821" fill="#0cf" fill-rule="evenodd" stroke="#045" stroke-linecap="round"/>
+   <ellipse cx="388.44" cy="857.21" rx="7.4915" ry="7.543" fill="#006680" fill-rule="evenodd" stroke="#045" stroke-linecap="round"/>
+   <rect x="134.12" y="704.92" width="8.1387" height="41.599" fill="#008080" fill-rule="evenodd" stroke="#045" stroke-linecap="round"/>
+   <rect x="111.42" y="742.88" width="53.536" height="16.26" ry="4.5869" fill="#008080" fill-rule="evenodd" stroke="#045" stroke-linecap="round"/>
+   <path d="m150.63 667.55 11.084 40.347c0.14352 0.52231-0.44133 0.97681-0.98953 0.97681h-45.085c-0.5482 0-0.99566-0.43568-0.98956-0.97681l11.084-40.347z" fill="#5df" fill-rule="evenodd" stroke="#045" stroke-linecap="round"/>
+   <path d="m142.19 668.9-26.032 38.623h7.4319l26.032-38.623h-7.4319z" fill="#80e5ff" fill-rule="evenodd"/>
+   <path d="m151.66 676.58-21.586 30.959h7.3923l16.335-23.429-2.1407-7.5297z" fill="#80e5ff" fill-rule="evenodd"/>
+   <g transform="matrix(1.893 0 0 1.8998 -28.169 -1073.6)" fill-rule="evenodd">
+    <path d="m139.98 960.85h51.871c1.4445 0 2.1086 0.61531 1.7694 1.3333l-0.5237 1.1088c-0.33914 0.71801-0.63918 1.7618-2.0837 1.7618h-50.51c-1.4445 0-2.0556-0.61569-2.3979-1.3333l-0.73318-1.5372c-0.5109-1.0712-0.23311-1.3333 2.6074-1.3333z" fill="#006680" stroke="#045" stroke-linecap="round" stroke-width=".63278"/>
+    <path d="m144.75 923.67h41.143c2.3142 0 4.1544 1.8632 4.1772 4.1772l0.29804 30.234c0.0228 2.3141 0.37213 2.3629-1.9419 2.389l-46.284 0.52157c-2.314 0.0261-1.5694-2.0121-1.5694-4.3263v-28.819c0-2.3142 1.863-4.1772 4.1772-4.1772z" fill="#006680" stroke="#045" stroke-linecap="round" stroke-width=".63278"/>
+    <rect x="144.24" y="926.91" width="42.379" height="30.839" fill="#5df" stroke="#045" stroke-linecap="round" stroke-width=".63278"/>
+    <path d="m159.89 960.92h8.2418c0.22951 0 0.33503 0.32364 0.28115 0.7013l-0.0832 0.58319c-0.0539 0.37767-0.10155 0.92669-0.33107 0.92669h-8.0254c-0.22951 0-0.32662-0.32385-0.381-0.70131l-0.11649-0.80857c-0.0812-0.56342-0.037-0.7013 0.41427-0.7013z" fill="#0a8" stroke="#045" stroke-linecap="round" stroke-width=".63278"/>
+    <rect x="144.44" y="926.91" width="42.177" height="6.0253" fill="#0a8" stroke="#045" stroke-linecap="round" stroke-width=".63278"/>
+    <rect x="164.53" y="928.87" width="2" height="2.3164" fill="#5df"/>
+    <rect x="169.18" y="929.56" width="1" height="1" fill="#5df"/>
+    <rect x="171.18" y="929.56" width="1" height="1" fill="#5df"/>
+    <rect x="173.18" y="929.56" width="1" height="1" fill="#5df"/>
+    <rect x="175.18" y="929.56" width="1" height="1" fill="#5df"/>
+    <rect x="177.18" y="929.56" width="1" height="1" fill="#5df"/>
+    <rect x="149.18" y="929.56" width="12" height="1" ry=".5" fill="#5df"/>
+    <rect x="172.24" y="935.11" width="11.718" height="13.572" ry="1.2676" fill="#045"/>
+    <rect x="171.78" y="949.95" width="12" height="1" ry=".5" fill="#045"/>
+    <rect x="171.78" y="951.64" width="12" height="1" ry=".5" fill="#045"/>
+    <rect x="171.78" y="953.33" width="12" height="1" ry=".5" fill="#045"/>
+    <rect x="171.78" y="955.02" width="12" height="1" ry=".5" fill="#045"/>
+    <rect x="152.04" y="935.79" width="9" height="1" ry=".5" fill="#006680"/>
+    <rect x="146.73" y="938.26" width="18" height="1" ry=".5" fill="#0a8"/>
+    <rect x="146.73" y="940.36" width="18" height="1" ry=".5" fill="#0a8"/>
+    <rect x="146.73" y="942.47" width="18" height="1" ry=".5" fill="#0a8"/>
+    <rect x="146.73" y="944.58" width="18" height="1" ry=".5" fill="#0a8"/>
+    <rect x="146.73" y="946.69" width="18" height="1" ry=".5" fill="#0a8"/>
+    <rect x="146.73" y="948.8" width="18" height="1" ry=".5" fill="#0a8"/>
+    <rect x="146.73" y="950.91" width="18" height="1" ry=".5" fill="#0a8"/>
+    <rect x="146.73" y="953.02" width="18" height="1" ry=".5" fill="#0a8"/>
+    <rect x="146.73" y="953.02" width="18" height="1" ry=".5" fill="#0a8"/>
+    <rect x="158.76" y="954.7" width="5" height="1" ry=".5" fill="#006680"/>
+   </g>
+   <ellipse cx="388.44" cy="803.76" rx="7.4915" ry="7.543" fill="#006680" fill-rule="evenodd" stroke="#045" stroke-linecap="round"/>
+   <ellipse cx="416.22" cy="738.55" rx="8.2511" ry="8.2969" fill="none" stroke="#045" stroke-linecap="round" stroke-width="5"/>
+   <rect x="381.85" y="718.82" width="31.673" height="38.772" ry=".66698" fill="#008080" fill-rule="evenodd" stroke="#045" stroke-linecap="round" stroke-width="5"/>
+   <path d="m411.86 720.26-28.615 35.967 28.856-0.0807z" fill="#f9f9f9" fill-rule="evenodd" opacity=".186"/>
+  </g>
+ </g>
+</svg>
